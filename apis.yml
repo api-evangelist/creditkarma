@@ -1,7 +1,27 @@
 aid: creditkarma
 name: CreditKarma
-description: CreditKarma is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Credit Karma is a US personal-finance platform, a subsidiary of Intuit, that
+  provides free credit scores and reports, ongoing credit and identity
+  monitoring, and personalized recommendations for credit cards, loans, auto
+  insurance, and other financial products, alongside Credit Karma Money banking
+  and savings. It was surfaced as a portfolio company of 500 Global and added to
+  the API Evangelist network. Credit Karma does not operate a public developer
+  API program; this profile captures its public engineering, security, identity,
+  and legal surface — a first-party open-source npm/GitHub org, an RFC 9116
+  security.txt, and a HackerOne bug bounty program.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.creditkarma.com/apple-touch-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/creditkarma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Personal Finance
+- Fintech
+- Credit Scores
+- Credit Monitoring
+- Financial Services
+- Consumer Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,30 @@ maintainers:
 common:
 - type: Website
   url: https://creditkarma.com
+- type: Blog
+  url: https://www.creditkarma.com/insights
+- type: GitHubOrganization
+  url: https://github.com/creditkarma
+- type: TermsOfService
+  url: https://www.creditkarma.com/about/terms
+- type: PrivacyPolicy
+  url: https://www.creditkarma.com/about/privacy
+- type: Packages
+  url: packages/creditkarma-packages.yml
+- type: WellKnown
+  url: well-known/creditkarma-well-known.yml
+- type: SecurityTxt
+  url: well-known/creditkarma-security.txt
+- type: Security
+  url: https://www.creditkarma.com/about/security
+- type: VulnerabilityDisclosure
+  url: security/creditkarma-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/creditkarma-domain-security.yml
+- type: LLMsTxt
+  url: llms/creditkarma-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

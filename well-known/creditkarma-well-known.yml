@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of /.well-known/* on creditkarma hosts
+host: https://www.creditkarma.com
+documents:
+- path: /.well-known/security.txt          # RFC 9116
+  status: 200
+  file: creditkarma-security.txt
+- path: /.well-known/openid-configuration   # OIDC discovery
+  status: 302
+- path: /.well-known/oauth-authorization-server  # RFC 8414
+  status: 302
+- path: /.well-known/api-catalog             # RFC 9727
+  status: 302
+- path: /.well-known/ai-plugin.json
+  status: 500
+notes: >-
+  Only /.well-known/security.txt returns a usable 200 document. The OIDC /
+  OAuth / api-catalog paths 302-redirect (no discovery document served); the
+  api.creditkarma.com host returns 404 for all of these. Credit Karma exposes
+  no public API discovery surface.

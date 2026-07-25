@@ -1,0 +1,65 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/org/creditkarma
+notes: >-
+  Credit Karma has no public consumer/product API and therefore ships no API
+  client SDKs. It DOES maintain a first-party open-source engineering org on npm
+  (@creditkarma) and GitHub (github.com/creditkarma) publishing backend
+  infrastructure libraries (a NodeJS/TypeScript Thrift stack, dynamic config,
+  Vault client, Zipkin tracing). These are official (author "Credit Karma") but
+  are general engineering tooling, NOT SDKs for a Credit Karma API — so no
+  `SDKs` rating pointer is emitted.
+category: open-source-infrastructure
+packages:
+- language: javascript
+  registry: npm
+  name: "@creditkarma/thrift-server-core"
+  url: https://www.npmjs.com/package/@creditkarma/thrift-server-core
+  install: npm install @creditkarma/thrift-server-core
+  official: true
+  description: Core of the Credit Karma NodeJS Thrift server stack.
+- language: javascript
+  registry: npm
+  name: "@creditkarma/thrift-client"
+  url: https://www.npmjs.com/package/@creditkarma/thrift-client
+  install: npm install @creditkarma/thrift-client
+  official: true
+  description: Thrift client library for NodeJS written in TypeScript.
+  repository: https://github.com/creditkarma/thrift-server
+- language: javascript
+  registry: npm
+  name: "@creditkarma/thrift-typescript"
+  url: https://www.npmjs.com/package/@creditkarma/thrift-typescript
+  install: npm install @creditkarma/thrift-typescript
+  official: true
+  description: Generate TypeScript from Thrift IDL files.
+- language: javascript
+  registry: npm
+  name: "@creditkarma/thrift-parser"
+  url: https://www.npmjs.com/package/@creditkarma/thrift-parser
+  install: npm install @creditkarma/thrift-parser
+  official: true
+  description: Thrift IDL parser written in TypeScript.
+- language: javascript
+  registry: npm
+  name: "@creditkarma/dynamic-config"
+  url: https://www.npmjs.com/package/@creditkarma/dynamic-config
+  install: npm install @creditkarma/dynamic-config
+  official: true
+  description: Dynamic Config for Node.js backed by Consul and Vault.
+  repository: https://github.com/creditkarma/dynamic-config
+- language: javascript
+  registry: npm
+  name: "@creditkarma/vault-client"
+  url: https://www.npmjs.com/package/@creditkarma/vault-client
+  install: npm install @creditkarma/vault-client
+  official: true
+  description: A client for communicating with Hashicorp Vault written in TypeScript.
+  repository: https://github.com/creditkarma/vault-client
+- language: javascript
+  registry: npm
+  name: "@creditkarma/zipkin-tracing-express"
+  url: https://www.npmjs.com/package/@creditkarma/zipkin-tracing-express
+  install: npm install @creditkarma/zipkin-tracing-express
+  official: true
+  description: Zipkin distributed-tracing middleware for Express.

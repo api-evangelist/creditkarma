@@ -1,0 +1,21 @@
+# Credit Karma
+
+> Credit Karma is a US personal-finance platform (a subsidiary of Intuit) offering free credit scores and reports, credit and identity monitoring, personalized financial-product recommendations, and Credit Karma Money banking. It does not operate a public developer API program; this profile captures its public engineering, security, and identity surface for the API Evangelist network.
+
+## About
+- [Credit Karma](https://www.creditkarma.com): Consumer credit and personal-finance platform.
+- [About Credit Karma](https://www.creditkarma.com/about): Company overview.
+- [Insights (blog)](https://www.creditkarma.com/insights): Personal-finance articles and guidance.
+
+## Security
+- [Security page](https://www.creditkarma.com/about/security): Responsible disclosure and security contact.
+- [security.txt](https://www.creditkarma.com/.well-known/security.txt): RFC 9116 security contact file.
+- [HackerOne bug bounty](https://hackerone.com/creditkarma): Managed vulnerability disclosure program.
+
+## Engineering
+- [GitHub organization](https://github.com/creditkarma): First-party open-source engineering projects.
+- [npm @creditkarma](https://www.npmjs.com/org/creditkarma): NodeJS/TypeScript Thrift stack and infrastructure libraries.
+
+## Legal
+- [Terms of Service](https://www.creditkarma.com/about/terms)
+- [Privacy Policy](https://www.creditkarma.com/about/privacy)

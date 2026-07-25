@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+status: community
+official: false
+source: https://www.npmjs.com/package/creditkarma-mcp
+notes: >-
+  No official Credit Karma hosted/remote MCP server exists (Credit Karma
+  publishes no public API). The only MCP server found is an UNOFFICIAL,
+  community-published package (`creditkarma-mcp`, author chrischall) that
+  automates the Credit Karma consumer app rather than a sanctioned API. Recorded
+  for provenance only; not a first-party artifact.
+server:
+  name: creditkarma-mcp
+  transport: stdio
+  registry: npm
+  package: creditkarma-mcp
+  version: 2.3.0
+  url: https://github.com/chrischall/creditkarma-mcp
+  description: >-
+    Community MCP server for Credit Karma — natural-language access to
+    transactions, spending, and accounts. Unofficial.
+tools: []
