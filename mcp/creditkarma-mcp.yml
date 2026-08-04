@@ -1,6 +1,7 @@
 generated: '2026-07-18'
 method: searched
-status: community
+status: third-party
+status_raw: community
 official: false
 source: https://www.npmjs.com/package/creditkarma-mcp
 notes: >-
